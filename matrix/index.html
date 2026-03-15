@@ -447,7 +447,7 @@ function goToPayment(){
   const errEl=document.getElementById('f-error');
   if(!name||!contact){errEl.style.display='block';return;}
   errEl.style.display='none';
-  const token='8751357245:AAGacyJg1pCBvfI5omKGfAIL6vim6tO-UzA';
+  const token='8751357245:AAHfvWh0nEINE2tynF4qoJIBe2jd9PdAf9w';
   const chatId='708287643';
   const question=document.getElementById('f-question').value||'не указан';
   const now=new Date().toLocaleString('ru-RU',{timeZone:'Asia/Almaty'});
@@ -459,7 +459,7 @@ function goToPayment(){
 function confirmPayment(){
   const name=document.getElementById('f-name').value.trim();
   const contact=document.getElementById('f-contact').value.trim();
-  const token='8751357245:AAGacyJg1pCBvfI5omKGfAIL6vim6tO-UzA';
+  const token='8751357245:AAHfvWh0nEINE2tynF4qoJIBe2jd9PdAf9w';
   const chatId='708287643';
   const now=new Date().toLocaleString('ru-RU',{timeZone:'Asia/Almaty'});
   const text=`✅ ОПЛАТА — Матрица денег!\n\n👤 Имя: ${name}\n📲 Контакт: ${contact}\n💰 Сумма: 9 900 ₸\n🕐 Время: ${now}\n\n👉 Свяжитесь с клиентом!`;
